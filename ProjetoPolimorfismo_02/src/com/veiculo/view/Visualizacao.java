@@ -7,4 +7,8 @@ import java.util.List;
 
 public class Visualizacao {
 
+	public void verVeiculos(List<Veiculo> veiculos) {
+		System.out.println(veiculos);
+	}
+	
 }

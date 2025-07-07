@@ -11,8 +11,14 @@ public class Moto extends Veiculo{
 	
 	@Override
 	public String toString() {
-		return ("Moto: " + marca
-				+ " - Carenagem: " + temCarenagem);
+		
+		if(temCarenagem == true) {
+			return ("Moto: " + marca
+					+ " - Carenagem: Sim!");
+		}else {
+			return ("Moto: " + marca
+					+ " - Carenagem: Não!");
+		}
 	}
 	
 }
